@@ -24,6 +24,8 @@ ertragen dass Max sauer ist und der blinkende linkspfeil lädt uns zum gehen ein
 unsere Challange hat begonnen.
 
 
+
+
 [ ] Telefonklingeln Startszene fertigstellen
 [ ] Gesprächsszene Telefon Fertigstellen
-[ ]  
+[ ] FIX: Nullexception in TitleScene (Username wird nicht übernommen)
