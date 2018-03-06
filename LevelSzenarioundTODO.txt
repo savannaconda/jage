@@ -1,0 +1,29 @@
+﻿TODO
+
+
+Wie das Level funktionieren soll:
+
+Gamescene startet. Redaktionsszenario.
+Das Telefon klingelt in regelmäßigen Abständen bis rangegangen wird.
+währenddessen ist Max angenervt, wenn man auf ihn klickt
+
+klickt man auf das telefon, beginnt ein Gespräch mit dem BR.
+Wir haben nun einen Task und sollen den erledigen.
+nur lässt Max uns noch nicht gehen
+wenn man auf den Pfeil klickt bevor man alles im Raum erledigt hat, meckert max bis zuletzt, es gäbe viel zu viel arbeit zu tun.
+Das gleiche, wenn man auf Max klickt.
+
+klickt man nocheinmal auf das Telefon, ruft man nochmal beim BR an.
+Da kann man nachhaken. der sagt einem, dass man freigestellt wird und nach welcher gesetzesgrundlage.
+Er sagt aber auch, dass man sich bei der Vorgesetzten abmelden muss.
+
+Lösung:
+auf Rechner MAil an Vorgesetzte verfasssen => variable switcht und Max ändert sein verhalten.
+Wir können nun den Abschlußdialog führen, mit dem GEsetz argumentieren, 
+ertragen dass Max sauer ist und der blinkende linkspfeil lädt uns zum gehen ein,
+unsere Challange hat begonnen.
+
+
+[ ] Telefonklingeln Startszene fertigstellen
+[ ] Gesprächsszene Telefon Fertigstellen
+[ ]  
