@@ -11,25 +11,28 @@ public class _GameUIController : MonoBehaviour
 
     public UnityEngine.UI.Text playerName; //hier soll später der zuvor eingegebene Spielername erscheinen
     public UnityEngine.UI.Text actionText;
+    public UnityEngine.UI.Text stichwortAntwortText;
+    public GameObject StichwortManager;
 
 
 
     void Start()
     {
-        if (PlayerPrefs.HasKey("username"))
-        {
-            playerName.text = PlayerPrefs.GetString("username");
-        }
-        //Ziehe den Spielernamen aus den Prefs
-        else
-        {
-            playerName.text = "Kreativname";
-        }
+        playerName.text = PlayerPrefs.GetString("playerName");
     }
+
+
 
     public void updateActionText(string a)
     {
         actionText.text = a;
     }
+
+    public void updateStichwortAnzeigeText(string b)
+    {
+
+        stichwortAntwortText.text = b;
+    }
+  
 }
 

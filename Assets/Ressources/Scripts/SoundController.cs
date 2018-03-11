@@ -17,6 +17,8 @@ public class SoundController : MonoBehaviour
   
     public AudioSource click;
     public AudioSource phone;
+    public AudioSource bla;
+    public AudioSource lettersound;
 
     //Sammlung der Regler
     public UnityEngine.UI.Toggle soundMuteToggle;
@@ -44,6 +46,8 @@ public class SoundController : MonoBehaviour
            
             click.volume = PlayerPrefs.GetFloat("lvlupVolume") / 100f;
             phone.volume = PlayerPrefs.GetFloat("lvlupVolume") / 100f;
+            bla.volume = PlayerPrefs.GetFloat("lvlupVolume") / 100f;
+            lettersound.volume = PlayerPrefs.GetFloat("lvlupVolume") / 100f;
         }
 
         if (soundSlider != null)
@@ -61,6 +65,8 @@ public class SoundController : MonoBehaviour
         PlayerPrefs.SetFloat("soundVolume", f);
         click.volume = f / 100f;
         phone.volume = f / 100f;
+        bla.volume = f / 100f;
+        lettersound.volume = f / 100f;
         soundText.text = f.ToString();
     }
 
@@ -72,6 +78,8 @@ public class SoundController : MonoBehaviour
             
             click.mute = false;
             phone.mute = false;
+            bla.mute = false;
+            lettersound.mute = false;
 
             PlayerPrefs.SetString("isSoundMuted", "false");
 
@@ -81,6 +89,8 @@ public class SoundController : MonoBehaviour
         {
             phone.mute = true;
             click.mute = true;
+            bla.mute = true;
+            lettersound.mute = true;
             PlayerPrefs.SetString("isSoundMuted", "true");
         }
     }
@@ -92,6 +102,8 @@ public class SoundController : MonoBehaviour
         {
             phone.mute = false;
             click.mute = false;
+            bla.mute = false;
+            lettersound.mute = false;
             PlayerPrefs.SetString("isSoundMuted", "false");
 
         }
@@ -99,6 +111,8 @@ public class SoundController : MonoBehaviour
         {
             phone.mute = true;
             click.mute = true;
+            bla.mute = true;
+            lettersound.mute = true;
             PlayerPrefs.SetString("isSoundMuted", "true");
         }
     }
